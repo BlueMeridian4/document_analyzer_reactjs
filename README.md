@@ -90,10 +90,10 @@ Data Flow
 
 ```mermaid
 flowchart LR
-    A[User] -->|Upload File| B[Frontend (React + Vite)]
-    B -->|POST file| C[Backend (Node.js + Express)]
-    C -->|Store Metadata| D[SQLite Database]
-    C -->|Analyze| E[OpenAI API]
+    A[User] -->|Upload File| B["Frontend: React + Vite"]
+    B -->|POST file| C["Backend: Node.js + Express"]
+    C -->|Store Metadata| D["SQLite Database"]
+    C -->|Analyze| E["OpenAI API"]
     E -->|JSON Result| C
     C -->|Return Analysis| B
 ```
