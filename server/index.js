@@ -81,7 +81,7 @@ app.post("/analyze", async (req, res) => {
           content: [
             {
               type: "input_text",
-              text: "Analyze this document and return JSON with: summary, key_topics, document_type."
+              text: "Analyze this document and return JSON with: summary (2-3 sentences), key_topics (3-5 bullet points), document_type."
             },
             {
               type: "input_file",
