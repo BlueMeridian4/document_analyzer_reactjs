@@ -1,30 +1,34 @@
-# Document Analyzer ReactJS
+# Document Analyzer (React + Vite)
 
-The document_analyzer_reactjs project is a privately executable vite application, that will generate a localhost web application UI/UX that includes the following features:
+The **document_analyzer_reactjs** project is a Vite-based web application that allows users to upload documents and automatically generate AI-powered analysis. The application provides:
 
-- Upload local documents
-- Document analyzation by OpenAI
-    - Summary (2-3 sentences)
-    - Key_topics (3-5 bullet points)
-    - Document_type
+- Uploading of local documents  
+- Automated OpenAI analysis, including:  
+  - **Summary** (2–3 sentences)  
+  - **Key Topics** (3–5 bullet points)  
+  - **Document Type**
+
+---
 
 ## Setup Instructions
-There are a few neccessarry commmands that are required to be run in order to create the vite application and run the web application. The following steps elucidate this process.
 
-#### Prerequisites
-- Node.js v18+ installed
-- npm (comes with Node.js)
-- OpenAI API key if using AI backend 
-    - https://platform.openai.com/docs/overview
+Follow the steps below to install, configure, and run the application locally.
+
+### Prerequisites
+- Node.js v18+
+- npm (bundled with Node.js)
+- OpenAI API key (for AI analysis)
 - Git
 
-#### To 'clone' the repository
-Run the following command in terminal: 
+---
+
+## Clone the Repository
+
 ```
 git clone git@github.com:BlueMeridian4/document_analyzer_reactjs.git
 ```
 
-#### To download document_analyzer_reactjs as 'zip'
+#### Alternative: Download ZIP version
 Run the following commands in terminal:
 
 *_Download zip file from repository_
@@ -32,7 +36,7 @@ Run the following commands in terminal:
 unzip document_analyzer_reactjs-main.zip
 cd document_analyzer_reactjs-main
 git init
-git add.
+git add .
 git remote add origin https://github.com/BlueMeridian4/document_analyzer_reactjs.git
 git remote update
 git checkout master
